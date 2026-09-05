@@ -1,6 +1,8 @@
 import os
 from google import genai
 
+print("Olá! Bem-vindo ao meu chatbot de clima! faça quanquer pergunta a ele sobre o meio ambiente!")
+
 def iniciar_chat():
     # Inicializa o cliente (ele busca automaticamente a variável GEMINI_API_KEY)
     client = genai.Client()
